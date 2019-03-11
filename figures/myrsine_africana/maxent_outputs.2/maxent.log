@@ -1,0 +1,272 @@
+Mon Mar 11 15:08:00 CET 2019
+MaxEnt version 3.4.1
+Reading file absence
+readGrid: max memory 477626368, total allocated 257425408, free 221891728, used 35533680, increment -14833608
+Reading samples from presence
+Read samples: max memory 477626368, total allocated 257425408, free 219279448, used 38145960, increment 2612280
+Adding samples to background in feature space
+Command line used:  autorun -e D:/Malaria_SDM/figures/myrsine_africana/maxent_outputs.2/absence -o D:/Malaria_SDM/figures/myrsine_africana/maxent_outputs.2 -s D:/Malaria_SDM/figures/myrsine_africana/maxent_outputs.2/presence -z -J -P
+Command line to repeat: java density.MaxEnt nowarnings noprefixes responsecurves jackknife outputdirectory=D:/Malaria_SDM/figures/myrsine_africana/maxent_outputs.2 samplesfile=D:/Malaria_SDM/figures/myrsine_africana/maxent_outputs.2/presence environmentallayers=D:/Malaria_SDM/figures/myrsine_africana/maxent_outputs.2/absence autorun novisible
+Species: species
+Layers: bioclim_soil_samburu.1 bioclim_soil_samburu.12 bioclim_soil_samburu.14 bioclim_soil_samburu.18 bioclim_soil_samburu.6 bioclim_soil_samburu.8
+Layertypes: Continuous Continuous Continuous Continuous Continuous Continuous
+responsecurves: true
+jackknife: true
+outputdirectory: D:/Malaria_SDM/figures/myrsine_africana/maxent_outputs.2
+samplesfile: D:/Malaria_SDM/figures/myrsine_africana/maxent_outputs.2/presence
+environmentallayers: D:/Malaria_SDM/figures/myrsine_africana/maxent_outputs.2/absence
+autorun: true
+visible: false
+
+getSamples: max memory 477626368, total allocated 257425408, free 219279448, used 38145960, increment 0
+Making features
+makeFeatures: max memory 477626368, total allocated 257425408, free 217965432, used 39459976, increment 1314016
+species: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 257425408, free 217965432, used 39459976, increment 0
+linearPredictor: max memory 477626368, total allocated 257425408, free 217965432, used 39459976, increment 0
+FeaturedSpace: max memory 477626368, total allocated 257425408, free 217965432, used 39459976, increment 0
+Sequential: max memory 477626368, total allocated 257425408, free 217965432, used 39459976, increment 0
+Initial loss: 6.891625897052253
+140: time = 0.017000 loss = 5.883301
+Resulting gain: 1.0083250309152714
+Projecting...
+Writing file D:\Malaria_SDM\figures\myrsine_africana\maxent_outputs.2\species.csv
+species response curves
+Response curve: only bioclim_soil_samburu.1
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 245461352, used 7245464, increment -32214512
+species bioclim_soil_samburu.1: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 245461352, used 7245464, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 245461352, used 7245464, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 245461352, used 7245464, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 244142824, used 8563992, increment 1318528
+Initial loss: 6.891625897052253
+120: time = 0.015000 loss = 5.938216
+Resulting gain: 0.9534095947515544
+species response curves
+Response curve: only bioclim_soil_samburu.12
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 241217320, used 11489496, increment 2925504
+species bioclim_soil_samburu.12: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 241217320, used 11489496, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 241217320, used 11489496, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 241217320, used 11489496, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 241217320, used 11489496, increment 0
+Initial loss: 6.891625897052253
+60: time = 0.016000 loss = 6.734519
+Resulting gain: 0.15710716883242792
+species response curves
+Response curve: only bioclim_soil_samburu.14
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 237256856, used 15449960, increment 3960464
+species bioclim_soil_samburu.14: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 237256856, used 15449960, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 237256856, used 15449960, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 237256856, used 15449960, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 237256856, used 15449960, increment 0
+Initial loss: 6.891625897052253
+60: time = 0.014000 loss = 6.279000
+Resulting gain: 0.6126262003946037
+species response curves
+Response curve: only bioclim_soil_samburu.18
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 233280040, used 19426776, increment 3976816
+species bioclim_soil_samburu.18: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 233280040, used 19426776, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 233280040, used 19426776, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 233280040, used 19426776, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 233280040, used 19426776, increment 0
+Initial loss: 6.891625897052253
+60: time = 0.015000 loss = 6.870283
+Resulting gain: 0.02134280822986856
+species response curves
+Response curve: only bioclim_soil_samburu.6
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 229319624, used 23387192, increment 3960416
+species bioclim_soil_samburu.6: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 229319624, used 23387192, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 229319624, used 23387192, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 229319624, used 23387192, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 229319624, used 23387192, increment 0
+Initial loss: 6.891625897052253
+60: time = 0.023000 loss = 6.078181
+Resulting gain: 0.813445274600876
+species response curves
+Response curve: only bioclim_soil_samburu.8
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 224390976, used 28315840, increment 4928648
+species bioclim_soil_samburu.8: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 224390976, used 28315840, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 224390976, used 28315840, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 224390976, used 28315840, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 224390976, used 28315840, increment 0
+Initial loss: 6.891625897052253
+120: time = 0.016000 loss = 5.920294
+Resulting gain: 0.9713318187011506
+species response curves
+Jackknife: leave bioclim_soil_samburu.1 out
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 216469200, used 36237616, increment 7921776
+species bioclim_soil_samburu.1: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 216469200, used 36237616, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 216469200, used 36237616, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 216469200, used 36237616, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 216469200, used 36237616, increment 0
+Initial loss: 6.891625897052253
+160: time = 0.033000 loss = 5.883301
+Jackknife: leave bioclim_soil_samburu.12 out
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 216469200, used 36237616, increment 0
+species bioclim_soil_samburu.12: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 216469200, used 36237616, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 216469200, used 36237616, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 216469200, used 36237616, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 216469200, used 36237616, increment 0
+Initial loss: 6.891625897052253
+180: time = 0.031000 loss = 5.883301
+Jackknife: leave bioclim_soil_samburu.14 out
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 216469200, used 36237616, increment 0
+species bioclim_soil_samburu.14: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 216469200, used 36237616, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 216469200, used 36237616, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 216469200, used 36237616, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 216469200, used 36237616, increment 0
+Initial loss: 6.891625897052253
+160: time = 0.031000 loss = 5.883301
+Jackknife: leave bioclim_soil_samburu.18 out
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 1326416
+species bioclim_soil_samburu.18: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+Initial loss: 6.891625897052253
+160: time = 0.016000 loss = 5.920183
+Jackknife: leave bioclim_soil_samburu.6 out
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+species bioclim_soil_samburu.6: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+Initial loss: 6.891625897052253
+Time since start: 1.011
+140: time = 0.031000 loss = 5.883301
+Jackknife: leave bioclim_soil_samburu.8 out
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+species bioclim_soil_samburu.8: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+Initial loss: 6.891625897052253
+120: time = 0.015000 loss = 5.899014
+Jackknife: only bioclim_soil_samburu.1
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+species bioclim_soil_samburu.1: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+Initial loss: 6.891625897052253
+120: time = 0.016000 loss = 5.938216
+Res.gain: 0.9534095947515544
+Jackknife: only bioclim_soil_samburu.12
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+species bioclim_soil_samburu.12: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 215142784, used 37564032, increment 0
+Initial loss: 6.891625897052253
+60: time = 0.016000 loss = 6.734519
+Res.gain: 0.15710716883242792
+Jackknife: only bioclim_soil_samburu.14
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 1318528
+species bioclim_soil_samburu.14: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+Initial loss: 6.891625897052253
+60: time = 0.015000 loss = 6.279000
+Res.gain: 0.6126262003946037
+Jackknife: only bioclim_soil_samburu.18
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+species bioclim_soil_samburu.18: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+Initial loss: 6.891625897052253
+60: time = 0.016000 loss = 6.870283
+Res.gain: 0.02134280822986856
+Jackknife: only bioclim_soil_samburu.6
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+species bioclim_soil_samburu.6: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+Initial loss: 6.891625897052253
+60: time = 0.016000 loss = 6.078181
+Res.gain: 0.813445274600876
+Jackknife: only bioclim_soil_samburu.8
+Making features
+makeFeatures: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+species bioclim_soil_samburu.8: 
+Regularization values: linear/quadratic/product: 0.671, categorical: 0.393, threshold: 1.870, hinge: 0.500
+13 samples
+Density: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+linearPredictor: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+FeaturedSpace: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+Sequential: max memory 477626368, total allocated 252706816, free 213824256, used 38882560, increment 0
+Initial loss: 6.891625897052253
+120: time = 0.000000 loss = 5.920294
+Res.gain: 0.9713318187011506
+Ending

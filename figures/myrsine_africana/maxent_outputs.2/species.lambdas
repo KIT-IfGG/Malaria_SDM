@@ -1,0 +1,12 @@
+bioclim_soil_samburu.1, 0.0, 141.0, 275.0
+bioclim_soil_samburu.12, 0.0, 227.0, 869.0
+bioclim_soil_samburu.14, 0.0, 1.0, 26.0
+bioclim_soil_samburu.18, 0.0, 102.0, 461.0
+bioclim_soil_samburu.6, 0.0, 60.0, 196.0
+bioclim_soil_samburu.8, 0.0, 149.0, 282.0
+bioclim_soil_samburu.18^2, -3.542169524938801, 10404.0, 212521.0
+bioclim_soil_samburu.8^2, -6.898930888298181, 22201.0, 79524.0
+linearPredictorNormalizer, -0.4909198767673459
+densityNormalizer, 70.32081961569085
+numBackgroundPoints, 984
+entropy, 5.883300865281681
