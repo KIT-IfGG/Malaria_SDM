@@ -123,9 +123,10 @@ soil_shp <- crop(soil_shp, samburu)
 plot(soil_shp)
 #soil_shp <- crop(soil_shp, UG)
 #soil_shp <- crop(soil_shp, africa)
-plot(soil_shp)
 soil_shp@data
 soil_leg <- soil_shp@data
+
+### remove dublicaded to create a legend
 
 soil <- rasterize(soil_shp, bioclim_samburu, field = "GRIDCODE")
 
@@ -135,7 +136,7 @@ soil <- mask(soil, samburu)
 plot(soil)
 writeRaster(soil, "soil_wrb.tif", overwrite = TRUE)
 #write.table(soil_leg, "wrb_leg.txt")
-
+table(soil[])
 
 # Bodendaten werden in einem separaten Skript auf Hauptbodentypen reduziert
 soil <- stack("data/soil_mst.tif")
@@ -161,19 +162,42 @@ sum(is.na(x))
 
 #maxent has an inbuilt program that conducts cross validation
 # Best model possible with the highest AUC and highest correlation 
-me2 <- dismo::maxent(bioclim_soil_samburu[[c("bioclim_soil_samburu.1", "bioclim_soil_samburu.8", "bioclim_soil_samburu.14", "bioclim_soil_samburu.12", "bioclim_soil_samburu.6", "bioclim_soil_samburu.18")]], occtrain, args=c("-J", "-P"), path=paste0(getwd(), "/figures/myrsine_africana/maxent_outputs.2"), userfeatures="LQ") # Boden als Faktor
+me2 <- dismo::maxent(bioclim_soil_samburu[[c("bioclim_soil_samburu.1", "bioclim_soil_samburu.8", "bioclim_soil_samburu.14", "bioclim_soil_samburu.12", "bioclim_soil_samburu.6", "bioclim_soil_samburu.18")]], p = occtrain, args=c("-J", "-P"), path=paste0(getwd(), "/figures/myrsine_africana/maxent_outputs.2"), userfeatures="LQ") 
+
+### Add b
+
+### The soil layer is included as layer 19, I assume. Needs to be checked! Tell maxent that this layer is a factor, not a numeric variable.
+me2_soil <- dismo::maxent(bioclim_soil_samburu[[c("bioclim_soil_samburu.1", "bioclim_soil_samburu.8", "bioclim_soil_samburu.14", "bioclim_soil_samburu.12", "bioclim_soil_samburu.6", "bioclim_soil_samburu.18", "bioclim_soil_samburu.19")]], p = occtrain, factors = "bioclim_soil_samburu.19", args=c("-J", "-P"), path=paste0(getwd(), "/figures/myrsine_africana/maxent_outputs.2"), userfeatures="LQ") # Boden als Faktor
+
+
+
+
+plot(me2)
+
+pdf("figures/Model_without_soil_Variable_contribution.pdf", width=7, height=5)
+
+par(mfrow = c(1, 1))
+plot(me2)
+dev.off()
+
 
 plot(me2)
 
 pdf("figures/Model_with_soil_Variable_contribution.pdf", width=7, height=5)
 
 par(mfrow = c(1, 1))
-plot(me2)
+plot(me2_soil)
 dev.off()
 
 #predict 
 r3 <- predict(me2, bioclim_soil_samburu)
 plot(r3)
+
+r3_soil <- predict(me2_soil, bioclim_soil_samburu)
+plot(r3_soil)
+
+### threshold and threshold dependent model quality measures
+### evaluate, threshold
 
 # predict with some options:
 r4 <- predict(me2, bioclim_soil_samburu, args=c("outputformat=raw"), progress='text', 
